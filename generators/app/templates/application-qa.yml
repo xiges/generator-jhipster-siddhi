@@ -1,0 +1,7 @@
+spring:
+    profiles:
+        active: qa
+
+application:
+    qa-properties:
+        foo: bar

@@ -1,0 +1,30 @@
+{
+    "generator-jhipster": {
+        "jhipsterVersion": "<%= jhipsterVersion %>",
+        "baseName": "<%= baseName %>",
+        "packageName": "<%= packageName %>",
+        "packageFolder": "<%= packageFolder %>",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "hazelcast",
+        "enableHibernateCache": false,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "postgresql",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSocialSignIn": false,
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "",
+        "enableTranslation": false,
+        "applicationType": "microservice",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "clientPackageManager": "yarn",
+        "skipClient": true,
+        "skipUserManagement": true
+    }
+}

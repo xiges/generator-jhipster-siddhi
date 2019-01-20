@@ -1,4 +1,4 @@
-# generator-jhipster-xigesDemo
+# generator-jhipster-Siddhi
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > JHipster module, 
 
@@ -12,45 +12,28 @@ As this is a [JHipster](http://jhipster.github.io/) module, we expect you have J
 
 - [Installing JHipster](https://jhipster.github.io/installation.html)
 
-# Installation
+# Run the module
 
 ## With Yarn
+cd generator-jhipster-xigesTest
+yarn install
+yarn link 
 
-To install this module:
-
-```bash
-yarn global add generator-jhipster-xigesTest
-```
-
-To update this module:
-
-```bash
-yarn global upgrade generator-jhipster-xigesTest
-```
-
-## With NPM
-
-To install this module:
-
-```bash
-npm install -g generator-jhipster-xigesTest
-```
-
-To update this module:
-
-```bash
-npm update -g generator-jhipster-xigesTest
-```
 
 # Usage
+## You can generate a brand new JHipster microservice called xiges-microservice using the package com.company.
 
-# License
+mkdir xiges-microservice
+cd xiges-microservice
+ yarn link 'generator-jhipster-xigesTest'
+
+// '--force' overwrites existing files without prompting
+yo jhipster-xigesTest xiges-microservice com.xigesTest --force
 
 
 
-[npm-image]: https://img.shields.io/npm/v/generator-jhipster-xigesDemo.svg
-[npm-url]: https://npmjs.org/package/generator-jhipster-xigesDemo
-[travis-image]: https://travis-ci.org/thari1996/generator-jhipster-xigesDemo.svg?branch=master
-[travis-url]: https://travis-ci.org/thari1996/generator-jhipster-xigesDemo
-[daviddm-image]: https://david-dm.org/thari1996/generator-jhipster-xigesDemo.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/thari1996/generator-jhipster-xigesDemo
+
+
+
+
+

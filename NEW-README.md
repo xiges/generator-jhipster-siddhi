@@ -41,7 +41,7 @@ $ yarn link
 Here is how to run the module in an empty folder named xiges-microservice
 
 ```sh
-$ mkdir my-microservice
+$ mkdir xiges-microservice
 $ yarn link 'generator-jhipster-xigesTest'
 // '--force' overwrites existing files without prompting
 $ yo jhipster-xigesTest xiges-microservice com.xigesTest --force

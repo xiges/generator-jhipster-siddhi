@@ -39,7 +39,7 @@ Due to a limitation of yeoman about file override, you will have to accept the o
 ? Overwrite package.json? (Ynaxdh)
 ```
 
-Enjoy siddhi in your Spring boot application
+Enjoy WSO2 siddhi in your Spring boot application
 
 ```bash
 npm run doc

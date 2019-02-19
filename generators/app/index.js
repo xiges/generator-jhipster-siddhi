@@ -19,7 +19,7 @@ module.exports = generator.extend({
         },
         displayLogo() {
             // Have Yeoman greet the user.
-            this.log(`Welcome to the ${chalk.bold.yellow('WSO@ Siddhi')} generator! ${chalk.yellow(`v${packagejs.version}\n`)}`);
+            this.log(`Welcome to the ${chalk.bold.yellow('WSO2 Siddhi')} generator! ${chalk.yellow(`v${packagejs.version}\n`)}`);
         }
     },
 
@@ -98,6 +98,6 @@ module.exports = generator.extend({
     },
 
     end() {
-        this.log('End of Siddhi generator');
+        this.log('End of WSO2 Siddhi generator');
     }
 });

@@ -19,7 +19,7 @@ public class TemperatureDataResource {
     @Autowired
     RealtimeAnalyticsServiceImpl realtimeAnalyticsServiceImpl;
 
-    @PostMapping("/stock-data")
+    @PostMapping("/temperature-data")
 
     public ResponseEntity<Void> addTemperatureData(@PathVariable String tempId, @RequestBody TemperatureData data){
 

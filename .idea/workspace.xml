@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5528866b-514d-4a67-b2e6-2ce76b91da24" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_RealtimeAnalyticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_RealtimeAnalyticsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_TemperatureData.java" beforeDir="false" afterPath="$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_TemperatureData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generators/app/templates/src/main/java/package/web/rest/_TemperatureDataResource .java" beforeDir="false" afterPath="$PROJECT_DIR$/generators/app/templates/src/main/java/package/web/rest/_TemperatureDataResource .java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_TemperatureDataResource .java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_TemperatureDataResource .java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generators/app/templates/src/main/java/package/web/rest/_TemperatureDataResource .java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="315">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -57,7 +56,7 @@
       <file leaf-file-name="_TemperatureData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_TemperatureData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="105">
               <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
                 <element signature="e#348#349#0" expanded="true" />
@@ -76,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_RealtimeAnalyticsServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_RealtimeAnalyticsServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_RealtimeAnalyticsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="435">
               <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,11 +103,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_RealtimeAnalyticsService.java" />
-        <option value="$PROJECT_DIR$/generators/app/templates/src/main/java/package/web/rest/_TemperatureDataResource .java" />
         <option value="$PROJECT_DIR$/generators/app/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_TemperatureData.java" />
         <option value="$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_RealtimeAnalyticsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/generators/app/templates/src/main/java/package/web/rest/_TemperatureDataResource .java" />
       </list>
     </option>
   </component>
@@ -333,12 +332,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550552303837</updated>
-      <workItem from="1550552305193" duration="4456000" />
+      <workItem from="1550552305193" duration="5469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4456000" />
+    <option name="totallyTimeSpent" value="5469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -412,9 +411,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_RealtimeAnalyticsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_TemperatureData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="105">
           <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="e#348#349#0" expanded="true" />
@@ -425,18 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generators/app/templates/src/main/java/package/web/rest/_TemperatureDataResource .java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generators/app/templates/src/main/java/package/domain/_RealtimeAnalyticsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>

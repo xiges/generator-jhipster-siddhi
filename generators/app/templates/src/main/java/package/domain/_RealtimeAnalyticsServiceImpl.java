@@ -30,7 +30,7 @@ public class RealtimeAnalyticsServiceImpl extends StreamCallback implements
     private static final String script = "define stream TempStream(roomNo int, temperature double, deviceId long); " +
             " " +
             "@info(name = 'avgTemperature') " +
-            "from TempStream#window.time(5 sec)  " +
+            "from TempStream#window.time(60 sec)  " +
             "select avg(temperature) as temperature,deviceId " +
             "group by roomNo " +
             "insert into AvgTempStream ;";

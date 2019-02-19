@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class TemperatureData {
     private int roomNo;
     private double temperature;
-    private Long deviceID;
+    private Long deviceId;
 
 
     public int getRoomNo() {

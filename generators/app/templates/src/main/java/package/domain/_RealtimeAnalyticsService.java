@@ -2,5 +2,5 @@ package <%=packageName%>.domain;
 
 public interface RealtimeAnalyticsService {
 
-    void boundDataEvent (String stockId ,StockData data);
+    void inboundDataEvent (String temperatureId , TemperatureData data);
 }

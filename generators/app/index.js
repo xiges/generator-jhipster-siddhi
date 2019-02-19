@@ -3,7 +3,7 @@ const generator = require('yeoman-generator');
 const packagejs = require('../../package.json');
 
 // Stores JHipster variables
-const jhipsterVar = { moduleName: 'siddhiX' };
+const jhipsterVar = { moduleName: 'siddhi' };
 
 // Stores JHipster functions
 const jhipsterFunc = {};
@@ -19,7 +19,7 @@ module.exports = generator.extend({
         },
         displayLogo() {
             // Have Yeoman greet the user.
-            this.log(`Welcome to the ${chalk.bold.yellow('JHipster siddhi')} generator! ${chalk.yellow(`v${packagejs.version}\n`)}`);
+            this.log(`Welcome to the ${chalk.bold.yellow('WSO@ Siddhi')} generator! ${chalk.yellow(`v${packagejs.version}\n`)}`);
         }
     },
 
@@ -28,14 +28,6 @@ module.exports = generator.extend({
         const done = this.async();
 
 
-        const prompts = [
-            {
-                type: 'input',
-                name: 'userFortune',
-                message: 'Please write your own fortune cookie',
-                default: 'Do. Or do not. There is no try.'
-            }
-        ];
 
         this.prompt(prompts).then((props) => {
             this.props = props;
@@ -67,11 +59,11 @@ module.exports = generator.extend({
 
 
 
-        this.template('src/main/java/package/domain/_RealtimeAnalytics.java', `${javaDir}domain/RealtimeAnalytics.java`);
+        this.template('src/main/java/package/domain/_RealtimeAnalyticsServiceImpl.java', `${javaDir}domain/RealtimeAnalytics.java`);
         this.template('src/main/java/package/domain/_RealtimeAnalyticsService.java', `${javaDir}domain/RealtimeAnalyticsService.java`);
-        this.template('src/main/java/package/domain/_StockData.java', `${javaDir}domain/StockData.java`);
+        this.template('src/main/java/package/domain/_TemperatureData.java', `${javaDir}domain/StockData.java`);
 
-        this.template('src/main/java/package/web/rest/_StockDataResource.java', `${javaDir}web/rest/StockDataResource.java`);
+        this.template('src/main/java/package/web/rest/_TemperatureDataResource .java', `${javaDir}web/rest/StockDataResource.java`);
     },
 
     install() {

@@ -1,6 +1,6 @@
 
 # generator-jhipster-siddhi
-
+[![Build Status](https://travis-ci.org/thari1996/generator-jhipster-siddhi.svg?branch=master)](https://travis-ci.org/thari1996/generator-jhipster-siddhi)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 > JHipster module, additional [Siddhi](https://github.com/wso2/siddhi/) support in your JHipster application
 
 

@@ -43,7 +43,7 @@
     "gulp-shell": "^0.5.1",
     "mocha": "2.3.4",
     "yeoman-assert": "2.1.1",
-    "yeoman-test": "1.0.0"
+    "yeoman-test": "1.6.0"
   },
   "scripts": {
     "test": "mocha test/*"

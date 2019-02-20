@@ -1,0 +1,10 @@
+{
+    "generator-jhipster-module": {
+        "promptValues": {
+            "githubName": "thari1996",
+            "authorName": "Tharindu Vibuddha",
+            "authorEmail": "tharinduvibuddha@gmail.com",
+            "authorUrl": "https://jhipster.github.io"
+        }
+    }
+}

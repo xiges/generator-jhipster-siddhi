@@ -27,6 +27,14 @@ module.exports = generator.extend({
         // return the function to call once the task is done
         const done = this.async();
 
+        const prompts = [
+            {
+                type: 'input',
+                name: 'userSiddhi',
+                message: 'Please write your own Siddhi app',
+                default: 'Do. Or do not. There is no try.'
+            }
+        ];
 
 
         this.prompt(prompts).then((props) => {
@@ -67,28 +75,6 @@ module.exports = generator.extend({
     },
 
     install() {
-        let logMsg =
-            `To install your dependencies manually, run: ${chalk.yellow.bold(`${this.clientPackageManager} install`)}`;
-
-        if (this.clientFramework === 'angular1') {
-            logMsg =
-                `To install your dependencies manually, run: ${chalk.yellow.bold(`${this.clientPackageManager} install & bower install`)}`;
-        }
-        const injectDependenciesAndConstants = (err) => {
-            if (err) {
-                this.warning('Install of dependencies failed!');
-                this.log(logMsg);
-            } else if (this.clientFramework === 'angular1') {
-                this.spawnCommand('gulp', ['install']);
-            }
-        };
-        const installConfig = {
-            bower: this.clientFramework === 'angular1',
-            npm: this.clientPackageManager !== 'yarn',
-            yarn: this.clientPackageManager === 'yarn',
-            callback: injectDependenciesAndConstants
-        };
-        this.installDependencies(installConfig);
 
 
         this.addMavenDependency('org.wso2.siddhi', 'siddhi-query-api', '4.1.7');

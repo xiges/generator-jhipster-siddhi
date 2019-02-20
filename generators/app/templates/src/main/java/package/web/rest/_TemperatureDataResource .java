@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TemperatureDataResource {
     private final Logger log = LoggerFactory.getLogger(TemperatureDataResource.class);
     @Autowired
-    RealtimeAnalyticsServiceImpl realtimeAnalyticsServiceImpl;
+    RealtimeAnalyticsService realtimeAnalyticsService;
 
     @PostMapping("/temperature-data")
 
@@ -27,7 +27,7 @@ public class TemperatureDataResource {
         temperatureData.setRoomNo(data.getRoomNo());
         temperatureData.setDeviceID(data.getDeviceID());
         temperatureData.setTemperature(data.getTemperature());
-        realtimeAnalyticsServiceImpl.inboundDataEvent(tempId,data);
+        realtimeAnalyticsService.inboundDataEvent(tempId,data);
         return new ResponseEntity<Void>(HttpStatus.OK);
     }
 

@@ -59,11 +59,11 @@ module.exports = generator.extend({
 
 
 
-        this.template('src/main/java/package/domain/_RealtimeAnalyticsServiceImpl.java', `${javaDir}domain/RealtimeAnalytics.java`);
+        this.template('src/main/java/package/domain/_RealtimeAnalyticsServiceImpl.java', `${javaDir}domain/RealtimeAnalyticsServiceImpl.java`);
         this.template('src/main/java/package/domain/_RealtimeAnalyticsService.java', `${javaDir}domain/RealtimeAnalyticsService.java`);
-        this.template('src/main/java/package/domain/_TemperatureData.java', `${javaDir}domain/StockData.java`);
+        this.template('src/main/java/package/domain/_TemperatureData.java', `${javaDir}domain/TemperatureData.java`);
 
-        this.template('src/main/java/package/web/rest/_TemperatureDataResource .java', `${javaDir}web/rest/StockDataResource.java`);
+        this.template('src/main/java/package/web/rest/_TemperatureDataResource .java', `${javaDir}web/rest/TemperatureDataResource.java`);
     },
 
     install() {

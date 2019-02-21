@@ -19,7 +19,7 @@
   "main": "generators/app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thari1996/siddhi-generator"
+    "url": "git+https://github.com/xiges/generator-jhipster-siddhi"
   },
   "dependencies": {
     "yeoman-generator": "1.1.1",
@@ -43,13 +43,13 @@
     "gulp-shell": "^0.5.1",
     "mocha": "2.3.4",
     "yeoman-assert": "2.1.1",
-    "yeoman-test": "1.0.0"
+    "yeoman-test": "1.6.0"
   },
   "scripts": {
     "test": "mocha test/*"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/thari1996/siddhi-generator/issues"
+    "url": "https://github.com/xiges/generator-jhipster-siddhi/issues"
   }
 }

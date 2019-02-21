@@ -1,6 +1,7 @@
 
 # generator-jhipster-siddhi
-[![Build Status](https://travis-ci.org/thari1996/generator-jhipster-siddhi.svg?branch=master)](https://travis-ci.org/thari1996/generator-jhipster-siddhi)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] 
+
 > JHipster module, additional [Siddhi](https://github.com/wso2/siddhi/) support in your JHipster application
 
 
@@ -46,4 +47,12 @@ npm run doc
 ```
 
 # License
+Apache-2.0 © [Xiges Solutions](mailto:sales@xiges.io)
+
+[npm-image]: https://img.shields.io/npm/v/generator-jhipster-siddhi.svg
+[npm-url]: https://npmjs.org/package/generator-jhipster-siddhi
+[travis-image]: https://travis-ci.org/thari1996/generator-jhipster-siddhi.svg?branch=test
+[travis-url]: https://travis-ci.org/thari1996/generator-jhipster-siddhi
+[daviddm-image]: https://david-dm.org/thari1996/generator-jhipster-siddhi.svg
+[daviddm-url]: https://david-dm.org/thari1996/generator-jhipster-module
 

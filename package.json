@@ -19,7 +19,7 @@
   "main": "generators/app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thari1996/siddhi-generator"
+    "url": "git+https://github.com/xiges/generator-jhipster-siddhi"
   },
   "dependencies": {
     "yeoman-generator": "1.1.1",
@@ -48,8 +48,8 @@
   "scripts": {
     "test": "mocha test/*"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/thari1996/siddhi-generator/issues"
+    "url": "https://github.com/xiges/generator-jhipster-siddhi/issues"
   }
 }
